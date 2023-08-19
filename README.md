@@ -93,23 +93,7 @@ The process of data scraping involves these key steps:
 
 5. Organize and structure the extracted data.
 
-## Importing Data into Pandas
 
-After running the script, you can load the scraped data into a Pandas DataFrame for analysis:
-
-```python
-import pandas as pd
-wuzzf = pd.read_csv("wuzzf-illustrator.csv")
-wuzzf.info()
-
-Now, you can explore, analyze, and visualize the scraped job listing data using Pandas and other data analysis libraries.
-
-
-##Requirements
-
-To run this project, make sure you have the following libraries installed:
-
-    BeautifulSoup (bs4)
     urllib
 
 You can install these libraries using pip:
